@@ -1,7 +1,7 @@
 from django.conf.urls import url
 
-from garfield import views
+from gman.views import home
 
 urlpatterns = [
-    url(r'^$', views.home, name='home'),
+    url(r'^$', home, name='home'),
 ]
