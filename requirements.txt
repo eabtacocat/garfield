@@ -1,0 +1,3 @@
+# Project requirements
+
+Django>=1.8,<1.9
